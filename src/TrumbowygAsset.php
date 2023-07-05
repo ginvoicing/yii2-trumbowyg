@@ -14,10 +14,10 @@ class TrumbowygAsset extends AssetBundle
 {
     public $sourcePath = '@npm/trumbowyg/dist';
     public $css = [
-        'ui/trumbowyg.css'
+        'ui/trumbowyg.min.css'
     ];
     public $js = [
-        'trumbowyg.js'
+        'trumbowyg.min.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset'
